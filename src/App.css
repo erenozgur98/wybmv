@@ -1,0 +1,95 @@
+/* Background Color */
+body {
+  background-color: #ffdde1; /* Soft pink color */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  text-align: center;
+  color: #333;
+}
+
+.envelope {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.envelope-front {
+  text-align: center;
+}
+
+.for-label {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d83b3a; /* Heart-red color */
+}
+
+.heart-container {
+  display: inline-block;
+}
+
+.heart {
+  font-size: 100px;
+  animation: heartBeat 1.5s infinite;
+}
+
+@keyframes heartBeat {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.2); }
+  50% { transform: scale(1); }
+  75% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.question {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #d83b3a; /* Heart-red color */
+}
+
+.ask-button {
+  background-color: #ff5c8d;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ask-button:hover {
+  background-color: #ff4081;
+}
+
+.ask-button:active {
+  background-color: #e0336b;
+}
+
+/* Specific style for the No button */
+.no-button {
+  background-color: #ff6f69;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+  
