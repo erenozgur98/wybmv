@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wybmv/static/css/main.52cfd3ae.css",
+    "main.js": "/wybmv/static/js/main.8657500a.js",
+    "index.html": "/wybmv/index.html",
+    "main.52cfd3ae.css.map": "/wybmv/static/css/main.52cfd3ae.css.map",
+    "main.8657500a.js.map": "/wybmv/static/js/main.8657500a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52cfd3ae.css",
+    "static/js/main.8657500a.js"
+  ]
+}
